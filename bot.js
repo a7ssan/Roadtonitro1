@@ -28,9 +28,13 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if(message.content === '-say'){
-    let say = args.join(' ');
-        message.channel.send(say);
+  let args = message.content.split(" ").slice(1);
+ 
+  if(message.content.startsWith(prefix + "say"))  {
+         message.delete()
+         const embed = new Discord.RichEmbed()
+         .setDescription(args.join(" "))
+    message.channel.sendEmbed(embed);
     }
 });
 
