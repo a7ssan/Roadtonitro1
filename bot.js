@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
-const prefix = "!"
 
 client.on('ready', () => {
    console.log(`----------------`);
@@ -28,14 +27,9 @@ client.on('message', message => {
     }
 });
 
-Client.on("message", async (message) => {
-	if (message.content) return;
-	if (!message.content.startsWith(prefix)) return;
-	
-	let command = message.content.split(" ")[0];
-	command = command.slice(prefix.length);
-	
-	let args = message.content.split(" ").slice(1);
+client.on('message', message => {
+    if(message.content === '-sss1'){
+        message.channel.send('#credits')
     }
 });
 
@@ -51,14 +45,9 @@ client2.on('message', message => {
     }
 });
 
-Client2.on("message", async (message) => {
-	if (message.content) return;
-	if (!message.content.startsWith(prefix)) return;
-	
-	let command = message.content.split(" ")[0];
-	command = command.slice(prefix.length);
-	
-	let args = message.content.split(" ").slice(1);
+client2.on('message', message => {
+    if(message.content === '-sss2'){
+        message.channel.send('#credits')
     }
 });
 
