@@ -28,8 +28,11 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if(message.content === '-sss1'){
-        message.channel.send('#credits')
+    if (command === 'say') {
+    let say = args.join(' ');
+    msg.delete();
+    if(!msg.member.permissions.has('ADMINISTRATION') ) return msg.reply('**YOU CANT USE THIS COMMAND !')
+    msg.channel.send(say);
     }
 });
 
