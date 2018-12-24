@@ -29,10 +29,8 @@ client.on('message', message => {
 
 client.on('message', message => {
   let args = message.content.split(" ").slice(1);
- 
   if(message.content.startsWith(prefix + "say"))  {
-         message.delete()
-         const embed = new Discord.RichEmbed()
+         const embed = new Discord.Client()
          .setDescription(args.join(" "))
     message.channel.sendEmbed(embed);
     }
