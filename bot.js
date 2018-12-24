@@ -6,7 +6,6 @@ client.login(process.env.TOKEN);
 client2.login(process.env.TOKEN2);
 
 client.on('message', message => {
-  var prefix = '++'
 
   if(message.content === '-s1'){
 message.channel.send('#daily')
@@ -15,26 +14,23 @@ message.channel.send('#daily')
 
     message.channel.send('#credits')
   }
-  if(message.content.startsWith("!l say")) {
+  if(message.content.startsWith("1!say")) {
     var text = message.content.split(' ').slice(1).join(' ');
-    if(!text) return message.reply("Incorrect Usage. Ex. !l say hi");
      message.channel.send(text);
   }
 });
 
 client2.on('message', message => {
-  var prefix = '+'
 
-  if(message.content === 'daily'){
+  if(message.content === '2daily'){
 message.channel.send('#daily')
   }
-  if(message.content === 'credit'){
+  if(message.content === '2credit'){
 
     message.channel.send('#credits')
   }
-  if(message.content.startsWith('${prefix}say')) {
+  if(message.content.startsWith("2!say")) {
     var text = message.content.split(' ').slice(1).join(' ');
-    if(!text) return message.reply("Incorrect Usage. Ex. !l say hi");
      message.channel.send(text);
   }
 });
