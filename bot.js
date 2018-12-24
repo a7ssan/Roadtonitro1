@@ -28,9 +28,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (command === 'say') {
+    if(message.content === '-say') {
     let say = args.join(' ');
-    msg.delete();
     if(!msg.member.permissions.has('ADMINISTRATION') ) return msg.reply('**YOU CANT USE THIS COMMAND !')
     msg.channel.send(say);
     }
