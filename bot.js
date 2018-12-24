@@ -30,8 +30,7 @@ client.on('message', message => {
 client.on('message', message => {
     if(message.content === '-say') {
     let say = args.join(' ');
-    if(!msg.member.permissions.has('ADMINISTRATION') ) return msg.reply('**YOU CANT USE THIS COMMAND !')
-    msg.channel.send(say);
+    message.channel.send(say);
     }
 });
 
