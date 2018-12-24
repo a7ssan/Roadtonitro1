@@ -11,7 +11,7 @@ client2.login(process.env.TOKEN2);
 client3.login(process.env.TOKEN3);
 client4.login(process.env.TOKEN4);
 client5.login(process.env.TOKEN5);
-client5.login(process.env.TOKEN6);
+client6.login(process.env.TOKEN6);
 
 client.on('message', message => {
 
