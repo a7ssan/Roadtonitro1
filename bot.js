@@ -28,9 +28,9 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if(message.content === '-say') {
+    if(message.content === '-say'){
     let say = args.join(' ');
-    message.channel.send(say);
+        message.channel.send(say);
     }
 });
 
