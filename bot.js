@@ -4,12 +4,14 @@ const client2 = new Discord.Client();
 const client3 = new Discord.Client();
 const client4 = new Discord.Client();
 const client5 = new Discord.Client();
+const client6 = new Discord.Client();
 
 client.login(process.env.TOKEN);
 client2.login(process.env.TOKEN2);
 client3.login(process.env.TOKEN3);
 client4.login(process.env.TOKEN4);
 client5.login(process.env.TOKEN5);
+client5.login(process.env.TOKEN6);
 
 client.on('message', message => {
 
@@ -86,6 +88,21 @@ message.channel.send('#daily')
   }
 });
 
+client6.on('message', message => {
+
+  if(message.content === '6d'){
+message.channel.send('#daily')
+  }
+  if(message.content === '6c'){
+
+    message.channel.send('#credits')
+  }
+  if(message.content.startsWith("6!say")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
 
 client.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
 if (message.content === '!spam') {
@@ -144,6 +161,20 @@ if (message.content === '!spam') {
 });
 
 client5.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
+if (message.content === '!spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 90000; x++) {
+        message.channel.send(`**Credit Spam , Frame , Credit By Hassan:tm: , Farm Credit By Hassan:tm:, ez Farm - ههههههههههههههههههههه**[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client6.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
