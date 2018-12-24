@@ -16,38 +16,38 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
-    if(message.content === '-راتب'){
+    if(message.content === '-s1'){
         message.channel.send('#daily')
     }
 });
 
 client.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === '-ss1'){
         message.channel.send('#credits')
     }
 });
 
 client.on('message', message => {
-    if(message.content === '-ريب'){
-        message.channel.send('#credits')
+    if(message.content === '-sss1'){
+        message.channel.send('#credits <@228108615976878080> 500')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-راتب'){
+    if(message.content === '-s2'){
         message.channel.send('#daily')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === '-ss2'){
         message.channel.send('#credits')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-ريب'){
-        message.channel.send('#credits')
+    if(message.content === '-sss2'){
+        message.channel.send('#credits <@228108615976878080> 500')
     }
 });
 
