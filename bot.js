@@ -6,7 +6,7 @@ const client4 = new Discord.Client();
 const client5 = new Discord.Client();
 const client6 = new Discord.Client();
 
-OwnerID = 228108615976878080
+OwnerID = "228108615976878080"
 client.login(process.env.TOKEN);
 client2.login(process.env.TOKEN2);
 client3.login(process.env.TOKEN3);
