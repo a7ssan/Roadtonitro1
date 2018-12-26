@@ -6,7 +6,7 @@ const client4 = new Discord.Client();
 const client5 = new Discord.Client();
 const client6 = new Discord.Client();
 
-OwnerID = "228108615976878080"
+
 client.login(process.env.TOKEN);
 client2.login(process.env.TOKEN2);
 client3.login(process.env.TOKEN3);
@@ -15,8 +15,13 @@ client5.login(process.env.TOKEN5);
 client6.login(process.env.TOKEN6);
 
 client.on('message', message => {
+  var sender = message.author;
 
-  if(message.OwnerID === '1d'){
+  if (sender.id --- '228108615976878080') {
+      return;
+  }
+
+  if(message.author === '1d'){
 message.channel.send('#daily')
   }
   if(message.content === '1c'){
