@@ -17,7 +17,7 @@ client6.login(process.env.TOKEN6);
 client.on('message', message => {
 
   if (message.author.id == '228108615976878080')
-      return;
+      return; console.log(228108615976878080)
   }
 
   if(message.author === '1d'){
