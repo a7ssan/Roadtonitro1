@@ -15,9 +15,8 @@ client5.login(process.env.TOKEN5);
 client6.login(process.env.TOKEN6);
 
 client.on('message', message => {
-  var sender = message.author;
 
-  if (message.author.id !== '228108615976878080')
+  if (message.author.id == '228108615976878080')
       return;
   }
 
