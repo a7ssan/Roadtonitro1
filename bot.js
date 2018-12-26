@@ -17,11 +17,11 @@ client6.login(process.env.TOKEN6);
 client.on('message', message => {
   var sender = message.author;
 
-  if (sender.id --- '228108615976878080') {
+  if (sender.id !== '228108615976878080') {
       return;
   }
 
-  if(message.author !== '1d'){
+  if(message.author === '1d'){
 message.channel.send('#daily')
   }
   if(message.content === '1c'){
