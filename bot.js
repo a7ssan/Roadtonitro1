@@ -21,7 +21,7 @@ client.on('message', message => {
       return;
   }
 
-  if(message.author === '1d'){
+  if(message.author !== '1d'){
 message.channel.send('#daily')
   }
   if(message.content === '1c'){
