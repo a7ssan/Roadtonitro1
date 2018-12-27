@@ -15,11 +15,13 @@ client5.login(process.env.TOKEN5);
 client6.login(process.env.TOKEN6);
 
 client.on('message', message => {
-
   if (message.author.id !== '228108615976878080') return;
-  if(message.author === '1d'){
-message.channel.send('#daily')
+  if (message.content === '1d') {
+ message.channel.send('#daily')
+  }
+  if(message.content === '1c'){
 
+    message.channel.send('#credits')
   }
   if(message.content === '1c'){
 
