@@ -17,16 +17,13 @@ client6.login(process.env.TOKEN6);
 client.on('message', message => {
   if (message.author.id !== '228108615976878080') return;
   if (message.content === '1d') {
- message.channel.send('#daily')
+message.channel.send('#daily')
   }
+  if (message.author.id !== '228108615976878080') return;
   if(message.content === '1c'){
-
-    message.channel.send('#credits')
+message.channel.send('#credits')
   }
-  if(message.content === '1c'){
-
-    message.channel.send('#credits')
-  }
+  if (message.author.id !== '228108615976878080') return;
   if(message.content.startsWith("1!say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -34,14 +31,15 @@ client.on('message', message => {
 });
 
 client2.on('message', message => {
-
+  if (message.author.id !== '228108615976878080') return;
   if(message.content === '2d'){
 message.channel.send('#daily')
   }
+  if (message.author.id !== '228108615976878080') return;
   if(message.content === '2c'){
-
-    message.channel.send('#credits')
+message.channel.send('#credits')
   }
+  if (message.author.id !== '228108615976878080') return;
   if(message.content.startsWith("2!say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -49,14 +47,15 @@ message.channel.send('#daily')
 });
 
 client3.on('message', message => {
-
+  if (message.author.id !== '228108615976878080') return;
   if(message.content === '3d'){
 message.channel.send('#daily')
   }
+  if (message.author.id !== '228108615976878080') return;
   if(message.content === '3c'){
-
-    message.channel.send('#credits')
+message.channel.send('#credits')
   }
+  if (message.author.id !== '228108615976878080') return;
   if(message.content.startsWith("3!say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -64,14 +63,15 @@ message.channel.send('#daily')
 });
 
 client4.on('message', message => {
-
+  if (message.author.id !== '228108615976878080') return;
   if(message.content === '4d'){
 message.channel.send('#daily')
   }
+  if (message.author.id !== '228108615976878080') return;
   if(message.content === '4c'){
-
-    message.channel.send('#credits')
+message.channel.send('#credits')
   }
+  if (message.author.id !== '228108615976878080') return;
   if(message.content.startsWith("4!say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -79,14 +79,15 @@ message.channel.send('#daily')
 });
 
 client5.on('message', message => {
-
+  if (message.author.id !== '228108615976878080') return;
   if(message.content === '5d'){
 message.channel.send('#daily')
   }
+  if (message.author.id !== '228108615976878080') return;
   if(message.content === '5c'){
-
-    message.channel.send('#credits')
+message.channel.send('#credits')
   }
+  if (message.author.id !== '228108615976878080') return;
   if(message.content.startsWith("5!say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -94,14 +95,15 @@ message.channel.send('#daily')
 });
 
 client6.on('message', message => {
-
+  if (message.author.id !== '228108615976878080') return;
   if(message.content === '6d'){
 message.channel.send('#daily')
   }
+  if (message.author.id !== '228108615976878080') return;
   if(message.content === '6c'){
-
-    message.channel.send('#credits')
+message.channel.send('#credits')
   }
+  if (message.author.id !== '228108615976878080') return;
   if(message.content.startsWith("6!say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -109,7 +111,8 @@ message.channel.send('#daily')
 });
 
 
-client.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
+client.on('message', message => { // Don't Play with this.
+if (message.author.id !== '228108615976878080') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -123,7 +126,8 @@ if (message.content === '!spam') {
       }
 });
 
-client2.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
+client2.on('message', message => { // Don't Play with this.
+if (message.author.id !== '228108615976878080') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -137,7 +141,8 @@ if (message.content === '!spam') {
       }
 });
 
-client3.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
+client3.on('message', message => { // Don't Play with this.
+if (message.author.id !== '228108615976878080') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -151,7 +156,8 @@ if (message.content === '!spam') {
       }
 });
 
-client4.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
+client4.on('message', message => { // Don't Play with this.
+if (message.author.id !== '228108615976878080') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -165,7 +171,8 @@ if (message.content === '!spam') {
       }
 });
 
-client5.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
+client5.on('message', message => { // Don't Play with this.
+if (message.author.id !== '228108615976878080') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -179,7 +186,8 @@ if (message.content === '!spam') {
       }
 });
 
-client6.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
+client6.on('message', message => { // Don't Play with this.
+if (message.author.id !== '228108615976878080') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
