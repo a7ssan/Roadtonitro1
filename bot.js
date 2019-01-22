@@ -103,7 +103,22 @@ client48.login(process.env.TOKEN48);
 client49.login(process.env.TOKEN49);
 client50.login(process.env.TOKEN50);
 
+client.on('ready', () => {
 
+  // console logs
+
+  console.log("hi")
+
+  console.log(`\n \n \n \nSuccessfully connected into discord's gateway(v6)\nScanning for guilds...\n\x1b[36m[-]\x1b[0m ${client.guilds.map(n => n.name + ` (ID: \x1b[36m${n.id}\x1b[0m)`).join(`\x1b[36m\n[-]\x1b[0m `)}`);
+
+  setTimeout(() => {
+    console.log(`Scan completed!\n\nVersion: ${version}\nAll commands are loaded. We are ready to go!\nInvite link: https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=8\nType ${prefixgen}help to get a list of commands to use!`);
+  }, 1000);
+
+  // activity
+
+  client.user.setActivity(`Hassan BOT v${version} - 1say`, { type: 'LISTENING' });
+});
 
 client.on('message', message => {
   if (message.author.id !== '228108615976878080') return;
@@ -115,7 +130,7 @@ message.channel.send('#daily')
 message.channel.send('#credits')
   }
   if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("1!say")) {
+  if(message.content.startsWith("1say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
