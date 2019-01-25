@@ -103,6 +103,9 @@ client48.login(process.env.TOKEN48);
 client49.login(process.env.TOKEN49);
 client50.login(process.env.TOKEN50);
 
+// in index.js file, get controller for spam messages
+let spamCtrl = require('./spamCtrl');
+
 client.on('ready', () => {
 
   // console logs
@@ -905,20 +908,14 @@ message.channel.send('#credits')
 });
 
 
-client.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
-if (message.content === '!spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-});
+// 2 commands together make spamming work :)
+case '?SPAM':
+    spamCtrl.setChannel(message.channel);
+    spamCtrl.setStatus(true);
+    break;
+case '?STOP-SPAM':
+    spamCtrl.setStatus(false);
+    break;
 
 client2.on('message', message => { // Don't Play with this.
 if (message.author.id !== '228108615976878080') return;
