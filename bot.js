@@ -103,16 +103,18 @@ client48.login(process.env.TOKEN48);
 client49.login(process.env.TOKEN49);
 client50.login(process.env.TOKEN50);
 
+
+
 client.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '1d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '1c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content.startsWith("1say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -120,781 +122,797 @@ message.channel.send('#credits')
 });
 
 client2.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '2d'){
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '2c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("2!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("2say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client3.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '3d'){
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '3c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("3!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("3say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client4.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '4d'){
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '4c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("4!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("4say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client5.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '5d'){
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '5c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("5!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("5say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client6.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '6d'){
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '6c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("6!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("6say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client7.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '7d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '7c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("7!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("7say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client8.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '8d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '8c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("8!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("8say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client9.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '9d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '9c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("9!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("9say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client10.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '10d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '10c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("10!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("10say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client11.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '11d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '11c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("11!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("11say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client12.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '12d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '12c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("12!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("12say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client13.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '13d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '13c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("13!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("13say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client14.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '14d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '14c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("14!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("14say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client15.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '15d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '15c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("15!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("15say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client16.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
+  if (message.content === '16d') {
+message.channel.send('#daily')
+  }
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content === '16c'){
+message.channel.send('#credits')
+  }
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("16say")) {
+    var text = message.content.split(' ').slice(1).join(' ');
+     message.channel.send(text);
+  }
+});
+
+client17.on('message', message => {
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '17d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '17c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("17!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("17say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client18.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '18d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '18c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("18!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("18say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client19.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '19d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '19c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("19!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("19say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client20.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '20d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '20c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("20!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("20say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client21.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '21d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '21c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("21!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("21say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client22.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '22d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '22c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("22!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("22say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client23.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '23d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '23c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("23!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("23say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client24.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '24d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '24c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("24!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("24say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client25.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '25d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '25c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("25!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("25say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client26.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '26d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '26c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("26!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("26say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client27.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '27d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '27c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("27!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("27say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client28.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '28d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '28c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("28!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("28say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client29.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '29d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '29c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("29!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("29say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client30.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '30d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '30c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("30!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("30say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client31.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '31d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '31c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("31!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("31say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client32.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '32d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '32c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("32!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("32say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client33.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '33d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '33c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("33!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("33say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client34.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '34d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '34c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("34!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("34say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client35.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '35d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '35c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("35!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("35say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client36.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '36d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '36c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("36!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("36say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client37.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '37d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '37c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("37!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("37say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client38.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '38d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '38c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("38!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("38say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client39.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '39d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '39c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("39!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("39say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client40.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '40d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '40c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("40!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("40say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client41.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '41d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '41c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("41!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("41say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client42.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '42d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '42c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("42!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("42say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client43.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '43d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '43c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("43!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("43say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client44.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '44d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '44c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("44!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("44say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client45.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '45d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '45c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("45!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("45say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client46.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '46d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '46c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("46!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("46say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client47.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '47d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '47c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("47!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("47say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client48.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '48d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '48c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("48!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("48say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client49.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '49d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '49c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("49!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("49say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client50.on('message', message => {
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if (message.content === '50d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '228108615976878080') return;
+  if (message.author.id !== '538271014782763008') return;
   if(message.content === '50c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '228108615976878080') return;
-  if(message.content.startsWith("50!say")) {
+  if (message.author.id !== '538271014782763008') return;
+  if(message.content.startsWith("50say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 
-client1.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+client.on('message', message => { // Don't Play with this.
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -904,12 +922,12 @@ if (message.content === '!spam') {
 });
 
 client2.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -919,12 +937,12 @@ if (message.content === '!spam') {
 });
 
 client3.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -934,12 +952,12 @@ if (message.content === '!spam') {
 });
 
 client4.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -949,12 +967,12 @@ if (message.content === '!spam') {
 });
 
 client5.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -964,12 +982,12 @@ if (message.content === '!spam') {
 });
 
 client6.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -979,12 +997,12 @@ if (message.content === '!spam') {
 });
 
 client7.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -994,12 +1012,12 @@ if (message.content === '!spam') {
 });
 
 client8.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1009,12 +1027,12 @@ if (message.content === '!spam') {
 });
 
 client9.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1024,12 +1042,12 @@ if (message.content === '!spam') {
 });
 
 client10.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1039,12 +1057,12 @@ if (message.content === '!spam') {
 });
 
 client11.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1054,12 +1072,12 @@ if (message.content === '!spam') {
 });
 
 client12.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1069,12 +1087,12 @@ if (message.content === '!spam') {
 });
 
 client13.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1084,12 +1102,12 @@ if (message.content === '!spam') {
 });
 
 client14.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1099,12 +1117,12 @@ if (message.content === '!spam') {
 });
 
 client15.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1114,12 +1132,12 @@ if (message.content === '!spam') {
 });
 
 client16.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1129,12 +1147,12 @@ if (message.content === '!spam') {
 });
 
 client17.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1144,12 +1162,12 @@ if (message.content === '!spam') {
 });
 
 client18.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1159,12 +1177,12 @@ if (message.content === '!spam') {
 });
 
 client19.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1174,12 +1192,12 @@ if (message.content === '!spam') {
 });
 
 client20.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1189,12 +1207,12 @@ if (message.content === '!spam') {
 });
 
 client21.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1204,12 +1222,12 @@ if (message.content === '!spam') {
 });
 
 client22.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1219,12 +1237,12 @@ if (message.content === '!spam') {
 });
 
 client23.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1234,12 +1252,12 @@ if (message.content === '!spam') {
 });
 
 client24.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1249,12 +1267,12 @@ if (message.content === '!spam') {
 });
 
 client25.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1264,12 +1282,12 @@ if (message.content === '!spam') {
 });
 
 client26.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1279,12 +1297,12 @@ if (message.content === '!spam') {
 });
 
 client27.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1294,12 +1312,12 @@ if (message.content === '!spam') {
 });
 
 client28.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1309,12 +1327,12 @@ if (message.content === '!spam') {
 });
 
 client29.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1324,12 +1342,12 @@ if (message.content === '!spam') {
 });
 
 client30.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1339,12 +1357,12 @@ if (message.content === '!spam') {
 });
 
 client31.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1354,12 +1372,12 @@ if (message.content === '!spam') {
 });
 
 client32.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1369,12 +1387,12 @@ if (message.content === '!spam') {
 });
 
 client33.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1384,12 +1402,12 @@ if (message.content === '!spam') {
 });
 
 client34.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1399,12 +1417,12 @@ if (message.content === '!spam') {
 });
 
 client35.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1414,12 +1432,12 @@ if (message.content === '!spam') {
 });
 
 client36.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1429,12 +1447,12 @@ if (message.content === '!spam') {
 });
 
 client37.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1444,12 +1462,12 @@ if (message.content === '!spam') {
 });
 
 client38.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1459,12 +1477,12 @@ if (message.content === '!spam') {
 });
 
 client39.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1474,12 +1492,12 @@ if (message.content === '!spam') {
 });
 
 client40.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1489,12 +1507,12 @@ if (message.content === '!spam') {
 });
 
 client41.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1504,12 +1522,12 @@ if (message.content === '!spam') {
 });
 
 client42.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1519,12 +1537,12 @@ if (message.content === '!spam') {
 });
 
 client43.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1534,12 +1552,12 @@ if (message.content === '!spam') {
 });
 
 client44.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1549,12 +1567,12 @@ if (message.content === '!spam') {
 });
 
 client45.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1564,12 +1582,12 @@ if (message.content === '!spam') {
 });
 
 client46.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1579,12 +1597,12 @@ if (message.content === '!spam') {
 });
 
 client47.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1594,12 +1612,12 @@ if (message.content === '!spam') {
 });
 
 client48.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1609,12 +1627,12 @@ if (message.content === '!spam') {
 });
 
 client49.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
@@ -1624,12 +1642,12 @@ if (message.content === '!spam') {
 });
 
 client50.on('message', message => { // Don't Play with this.
-if (message.author.id !== '228108615976878080') return;
+if (message.author.id !== '538271014782763008') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`[ " ${x} " ]`)
+        message.channel.send(`[ ${x} ]`)
           .then(m => {
             count++;
           })
