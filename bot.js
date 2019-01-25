@@ -110,9 +110,6 @@ client.on('ready', () => {
             name: '</3',
             type: "STREAMING",
             url: "https://www.twitch.tv/Spam[iA3x]"
-        }
-    });
-});
 
 client.on('message', message => {
   if (message.author.id !== '228108615976878080') return;
