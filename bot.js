@@ -103,14 +103,6 @@ client48.login(process.env.TOKEN48);
 client49.login(process.env.TOKEN49);
 client50.login(process.env.TOKEN50);
 
-client.on('ready', () => {
-    client.user.setStatus('available')
-    client.user.setPresence({
-        game: {
-            name: '</3',
-            type: "STREAMING",
-            url: "https://www.twitch.tv/Spam[iA3x]"
-
 client.on('message', message => {
   if (message.author.id !== '228108615976878080') return;
   if (message.content === '1d') {
@@ -896,22 +888,20 @@ message.channel.send('#credits')
 });
 
 
-var spam = false;
-if (message.content === '&spam') {
-    if (message.author.id !== client.user.id) { // Replace bot with the instance of your bot Client.
-        spam = true;
-    } else {
-        if(spam) {
-            message.channel.send('spam');
+client1.on('message', message => { // Don't Play with this.
+if (message.author.id !== '228108615976878080') return;
+if (message.content === '!spam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 90000; x++) {
+        message.channel.send(`[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
         }
-    }
-    if (message.content === 'stop spam') {
-        if(spam) {
-            message.channel.send('stopped');
-        }
-        spam = false;
-    }
-}
+      }
+});
 
 client2.on('message', message => { // Don't Play with this.
 if (message.author.id !== '228108615976878080') return;
