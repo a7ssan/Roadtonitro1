@@ -1,7 +1,7 @@
 {
-  "name": "Kahrbaa",
-  "version": "2.1.0",
-  "description": "-- Script Spam , Farm Credit By Kahrbaa --",
+  "name": "Hassan",
+  "version": "1.0.0",
+  "description": "-- Script Spam , Farm Credit By Hassan --",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
