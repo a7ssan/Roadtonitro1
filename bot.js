@@ -103,24 +103,15 @@ client48.login(process.env.TOKEN48);
 client49.login(process.env.TOKEN49);
 client50.login(process.env.TOKEN50);
 
-// in index.js file, get controller for spam messages
-let spamCtrl = require('./spamCtrl');
-
 client.on('ready', () => {
-
-  // console logs
-
-  console.log("hi")
-
-  console.log(`\n \n \n \nSuccessfully connected into discord's gateway(v6)\nScanning for guilds...\n\x1b[36m[-]\x1b[0m ${client.guilds.map(n => n.name + ` (ID: \x1b[36m${n.id}\x1b[0m)`).join(`\x1b[36m\n[-]\x1b[0m `)}`);
-
-  setTimeout(() => {
-    console.log(`Scan completed!\n\nVersion: ${version}\nAll commands are loaded. We are ready to go!\nInvite link: https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=8\nType ${prefixgen}help to get a list of commands to use!`);
-  }, 1000);
-
-  // activity
-
-  client.user.setActivity(`Hassan BOT v${version} - 1say`, { type: 'LISTENING' });
+    client.user.setStatus('available')
+    client.user.setPresence({
+        game: {
+            name: '</3',
+            type: "STREAMING",
+            url: "https://www.twitch.tv/Spam[iA3x]"
+        }
+    });
 });
 
 client.on('message', message => {
@@ -331,7 +322,7 @@ message.channel.send('#credits')
   }
 });
 
-client4.on('message', message => {
+client14.on('message', message => {
   if (message.author.id !== '228108615976878080') return;
   if (message.content === '14d') {
 message.channel.send('#daily')
@@ -908,14 +899,22 @@ message.channel.send('#credits')
 });
 
 
-// 2 commands together make spamming work :)
-case '?SPAM':
-    spamCtrl.setChannel(message.channel);
-    spamCtrl.setStatus(true);
-    break;
-case '?STOP-SPAM':
-    spamCtrl.setStatus(false);
-    break;
+var spam = false;
+if (message.content === '&spam') {
+    if (message.author.id !== client.user.id) { // Replace bot with the instance of your bot Client.
+        spam = true;
+    } else {
+        if(spam) {
+            message.channel.send('spam');
+        }
+    }
+    if (message.content === 'stop spam') {
+        if(spam) {
+            message.channel.send('stopped');
+        }
+        spam = false;
+    }
+}
 
 client2.on('message', message => { // Don't Play with this.
 if (message.author.id !== '228108615976878080') return;
