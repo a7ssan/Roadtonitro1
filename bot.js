@@ -106,15 +106,15 @@ client50.login(process.env.TOKEN50);
 
 
 client.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '1d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '1c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("1say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -122,15 +122,15 @@ message.channel.send('#credits')
 });
 
 client2.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '2d'){
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '2c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("2say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -138,15 +138,15 @@ message.channel.send('#credits')
 });
 
 client3.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '3d'){
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '3c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("3say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -154,15 +154,15 @@ message.channel.send('#credits')
 });
 
 client4.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '4d'){
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '4c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("4say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -170,15 +170,15 @@ message.channel.send('#credits')
 });
 
 client5.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '5d'){
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '5c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("5say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -186,15 +186,15 @@ message.channel.send('#credits')
 });
 
 client6.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '6d'){
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '6c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("6say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -202,15 +202,15 @@ message.channel.send('#credits')
 });
 
 client7.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '7d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '7c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("7say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -218,15 +218,15 @@ message.channel.send('#credits')
 });
 
 client8.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '8d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '8c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("8say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -234,15 +234,15 @@ message.channel.send('#credits')
 });
 
 client9.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '9d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '9c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("9say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -250,15 +250,15 @@ message.channel.send('#credits')
 });
 
 client10.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '10d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '10c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("10say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -266,15 +266,15 @@ message.channel.send('#credits')
 });
 
 client11.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '11d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '11c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("11say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -282,15 +282,15 @@ message.channel.send('#credits')
 });
 
 client12.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '12d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '12c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("12say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -298,15 +298,15 @@ message.channel.send('#credits')
 });
 
 client13.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '13d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '13c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("13say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -314,15 +314,15 @@ message.channel.send('#credits')
 });
 
 client14.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '14d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '14c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("14say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -330,15 +330,15 @@ message.channel.send('#credits')
 });
 
 client15.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '15d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '15c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("15say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -346,15 +346,15 @@ message.channel.send('#credits')
 });
 
 client16.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '16d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '16c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("16say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -362,15 +362,15 @@ message.channel.send('#credits')
 });
 
 client17.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '17d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '17c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("17say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -378,15 +378,15 @@ message.channel.send('#credits')
 });
 
 client18.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '18d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '18c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("18say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -394,15 +394,15 @@ message.channel.send('#credits')
 });
 
 client19.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '19d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '19c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("19say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -410,15 +410,15 @@ message.channel.send('#credits')
 });
 
 client20.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '20d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '20c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("20say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -426,15 +426,15 @@ message.channel.send('#credits')
 });
 
 client21.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '21d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '21c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("21say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -442,15 +442,15 @@ message.channel.send('#credits')
 });
 
 client22.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '22d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '22c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("22say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -458,15 +458,15 @@ message.channel.send('#credits')
 });
 
 client23.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '23d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '23c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("23say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -474,15 +474,15 @@ message.channel.send('#credits')
 });
 
 client24.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '24d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '24c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("24say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -490,15 +490,15 @@ message.channel.send('#credits')
 });
 
 client25.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '25d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '25c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("25say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -506,15 +506,15 @@ message.channel.send('#credits')
 });
 
 client26.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '26d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '26c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("26say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -522,15 +522,15 @@ message.channel.send('#credits')
 });
 
 client27.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '27d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '27c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("27say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -538,15 +538,15 @@ message.channel.send('#credits')
 });
 
 client28.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '28d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '28c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("28say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -554,15 +554,15 @@ message.channel.send('#credits')
 });
 
 client29.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '29d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '29c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("29say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -570,15 +570,15 @@ message.channel.send('#credits')
 });
 
 client30.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '30d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '30c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("30say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -586,15 +586,15 @@ message.channel.send('#credits')
 });
 
 client31.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '31d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '31c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("31say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -602,15 +602,15 @@ message.channel.send('#credits')
 });
 
 client32.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '32d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '32c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("32say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -618,15 +618,15 @@ message.channel.send('#credits')
 });
 
 client33.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '33d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '33c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("33say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -634,15 +634,15 @@ message.channel.send('#credits')
 });
 
 client34.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '34d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '34c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("34say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -650,15 +650,15 @@ message.channel.send('#credits')
 });
 
 client35.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '35d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '35c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("35say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -666,15 +666,15 @@ message.channel.send('#credits')
 });
 
 client36.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '36d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '36c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("36say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -682,15 +682,15 @@ message.channel.send('#credits')
 });
 
 client37.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '37d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '37c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("37say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -698,15 +698,15 @@ message.channel.send('#credits')
 });
 
 client38.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '38d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '38c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("38say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -714,15 +714,15 @@ message.channel.send('#credits')
 });
 
 client39.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '39d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '39c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("39say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -730,15 +730,15 @@ message.channel.send('#credits')
 });
 
 client40.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '40d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '40c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("40say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -746,15 +746,15 @@ message.channel.send('#credits')
 });
 
 client41.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '41d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '41c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("41say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -762,15 +762,15 @@ message.channel.send('#credits')
 });
 
 client42.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '42d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '42c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("42say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -778,15 +778,15 @@ message.channel.send('#credits')
 });
 
 client43.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '43d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '43c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("43say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -794,15 +794,15 @@ message.channel.send('#credits')
 });
 
 client44.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '44d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '44c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("44say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -810,15 +810,15 @@ message.channel.send('#credits')
 });
 
 client45.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '45d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '45c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("45say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -826,15 +826,15 @@ message.channel.send('#credits')
 });
 
 client46.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '46d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '46c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("46say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -842,15 +842,15 @@ message.channel.send('#credits')
 });
 
 client47.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '47d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '47c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("47say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -858,15 +858,15 @@ message.channel.send('#credits')
 });
 
 client48.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '48d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '48c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("48say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -874,15 +874,15 @@ message.channel.send('#credits')
 });
 
 client49.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '49d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '49c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("49say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -890,15 +890,15 @@ message.channel.send('#credits')
 });
 
 client50.on('message', message => {
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if (message.content === '50d') {
 message.channel.send('#daily')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content === '50c'){
 message.channel.send('#credits')
   }
-  if (message.author.id !== '538271014782763008') return;
+  if (message.author.id !== '540790252181127170') return;
   if(message.content.startsWith("50say")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
@@ -907,7 +907,7 @@ message.channel.send('#credits')
 
 
 client.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -922,7 +922,7 @@ if (message.content === '!spam') {
 });
 
 client2.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -937,7 +937,7 @@ if (message.content === '!spam') {
 });
 
 client3.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -952,7 +952,7 @@ if (message.content === '!spam') {
 });
 
 client4.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -967,7 +967,7 @@ if (message.content === '!spam') {
 });
 
 client5.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -982,7 +982,7 @@ if (message.content === '!spam') {
 });
 
 client6.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -997,7 +997,7 @@ if (message.content === '!spam') {
 });
 
 client7.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1012,7 +1012,7 @@ if (message.content === '!spam') {
 });
 
 client8.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1027,7 +1027,7 @@ if (message.content === '!spam') {
 });
 
 client9.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1042,7 +1042,7 @@ if (message.content === '!spam') {
 });
 
 client10.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1057,7 +1057,7 @@ if (message.content === '!spam') {
 });
 
 client11.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1072,7 +1072,7 @@ if (message.content === '!spam') {
 });
 
 client12.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1087,7 +1087,7 @@ if (message.content === '!spam') {
 });
 
 client13.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1102,7 +1102,7 @@ if (message.content === '!spam') {
 });
 
 client14.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1117,7 +1117,7 @@ if (message.content === '!spam') {
 });
 
 client15.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1132,7 +1132,7 @@ if (message.content === '!spam') {
 });
 
 client16.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1147,7 +1147,7 @@ if (message.content === '!spam') {
 });
 
 client17.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1162,7 +1162,7 @@ if (message.content === '!spam') {
 });
 
 client18.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1177,7 +1177,7 @@ if (message.content === '!spam') {
 });
 
 client19.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1192,7 +1192,7 @@ if (message.content === '!spam') {
 });
 
 client20.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1207,7 +1207,7 @@ if (message.content === '!spam') {
 });
 
 client21.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1222,7 +1222,7 @@ if (message.content === '!spam') {
 });
 
 client22.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1237,7 +1237,7 @@ if (message.content === '!spam') {
 });
 
 client23.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1252,7 +1252,7 @@ if (message.content === '!spam') {
 });
 
 client24.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1267,7 +1267,7 @@ if (message.content === '!spam') {
 });
 
 client25.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1282,7 +1282,7 @@ if (message.content === '!spam') {
 });
 
 client26.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1297,7 +1297,7 @@ if (message.content === '!spam') {
 });
 
 client27.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1312,7 +1312,7 @@ if (message.content === '!spam') {
 });
 
 client28.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1327,7 +1327,7 @@ if (message.content === '!spam') {
 });
 
 client29.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1342,7 +1342,7 @@ if (message.content === '!spam') {
 });
 
 client30.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1357,7 +1357,7 @@ if (message.content === '!spam') {
 });
 
 client31.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1372,7 +1372,7 @@ if (message.content === '!spam') {
 });
 
 client32.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1387,7 +1387,7 @@ if (message.content === '!spam') {
 });
 
 client33.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1402,7 +1402,7 @@ if (message.content === '!spam') {
 });
 
 client34.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1417,7 +1417,7 @@ if (message.content === '!spam') {
 });
 
 client35.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1432,7 +1432,7 @@ if (message.content === '!spam') {
 });
 
 client36.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1447,7 +1447,7 @@ if (message.content === '!spam') {
 });
 
 client37.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1462,7 +1462,7 @@ if (message.content === '!spam') {
 });
 
 client38.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1477,7 +1477,7 @@ if (message.content === '!spam') {
 });
 
 client39.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1492,7 +1492,7 @@ if (message.content === '!spam') {
 });
 
 client40.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1507,7 +1507,7 @@ if (message.content === '!spam') {
 });
 
 client41.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1522,7 +1522,7 @@ if (message.content === '!spam') {
 });
 
 client42.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1537,7 +1537,7 @@ if (message.content === '!spam') {
 });
 
 client43.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1552,7 +1552,7 @@ if (message.content === '!spam') {
 });
 
 client44.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1567,7 +1567,7 @@ if (message.content === '!spam') {
 });
 
 client45.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1582,7 +1582,7 @@ if (message.content === '!spam') {
 });
 
 client46.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1597,7 +1597,7 @@ if (message.content === '!spam') {
 });
 
 client47.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1612,7 +1612,7 @@ if (message.content === '!spam') {
 });
 
 client48.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1627,7 +1627,7 @@ if (message.content === '!spam') {
 });
 
 client49.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1642,7 +1642,7 @@ if (message.content === '!spam') {
 });
 
 client50.on('message', message => { // Don't Play with this.
-if (message.author.id !== '538271014782763008') return;
+if (message.author.id !== '540790252181127170') return;
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
@@ -1655,3 +1655,708 @@ if (message.content === '!spam') {
         }
       }
 });
+//////////////////////////////////////////////////////////////////////////////////////////////////
+client1.on('ready', () => {
+client1.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client2.on('ready', () => {
+client2.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client3.on('ready', () => {
+client3.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client4.on('ready', () => {
+client4.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client5.on('ready', () => {
+client5.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client6.on('ready', () => {
+client6.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client7.on('ready', () => {
+client7.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client8.on('ready', () => {
+client8.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client9.on('ready', () => {
+client9.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client10.on('ready', () => {
+client10.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client11.on('ready', () => {
+client11.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client12.on('ready', () => {
+client12.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client13.on('ready', () => {
+client13.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client14.on('ready', () => {
+client14.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client15.on('ready', () => {
+client15.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client16.on('ready', () => {
+client16.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client17.on('ready', () => {
+client17.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client18.on('ready', () => {
+client18.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client19.on('ready', () => {
+client19.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client20.on('ready', () => {
+client20.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client21.on('ready', () => {
+client21.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client22.on('ready', () => {
+client22.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client23.on('ready', () => {
+client23.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client24.on('ready', () => {
+client24.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client25.on('ready', () => {
+client25.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client26.on('ready', () => {
+client26.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client27.on('ready', () => {
+client27.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client28.on('ready', () => {
+client28.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client29.on('ready', () => {
+client29.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client30.on('ready', () => {
+client30.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client31.on('ready', () => {
+client31.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client32.on('ready', () => {
+client32.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client33.on('ready', () => {
+client33.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client34.on('ready', () => {
+client34.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client35.on('ready', () => {
+client35.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client36.on('ready', () => {
+client36.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client37.on('ready', () => {
+client37.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client38.on('ready', () => {
+client38.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client39.on('ready', () => {
+client39.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client40.on('ready', () => {
+client40.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client41.on('ready', () => {
+client41.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client42.on('ready', () => {
+client42.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client43.on('ready', () => {
+client43.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client44.on('ready', () => {
+client44.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client45.on('ready', () => {
+client45.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client46.on('ready', () => {
+client46.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client47.on('ready', () => {
+client47.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client48.on('ready', () => {
+client48.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client49.on('ready', () => {
+client49.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+client50.on('ready', () => {
+client50.user.setActivity('IAAA333XXX', {type: "WATCHING"});
+});
+//////////////////////////////////////////////////////////////////////////////////////////////////
+client1.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client2.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client3.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client4.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client5.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client6.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client7.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client8.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client9.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client10.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client11.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client12.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client13.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client14.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client15.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client16.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client17.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client18.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client19.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client20.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client21.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client22.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client23.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client24.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client25.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client26.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client27.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client28.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client29.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client30.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client31.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client32.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client33.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client34.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client35.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client36.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client37.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client38.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client39.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client40.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client41.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client42.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client43.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client44.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client45.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client46.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+
+}
+});
+client47.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client48.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+
+}
+});
+client49.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+client50.on("message", message => {
+    if (message.author.bot) return;
+if(!message.channel.guild) return;
+  if(message.content === '!d')) {
+message.delete(3000);
+if(message.author.id !== "540790252181127170") return message.replay('').then(msg => msg.delete(3000));
+message.channel.send('#daily').then(s => {
+s.delete(3000);
+});
+}
+});
+//////////////////////////////////////////////////////////////////////////////////////////////////
